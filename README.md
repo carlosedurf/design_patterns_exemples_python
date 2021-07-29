@@ -16,3 +16,4 @@
 * Strategy
 * Observer
 * Command
+* Template
