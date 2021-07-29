@@ -17,3 +17,5 @@
 * Observer
 * Command
 * Template
+* State
+* Chain of Responsability
