@@ -19,3 +19,6 @@
 * Template
 * State
 * Chain of Responsability
+* Iterator
+* Mediator
+* Memento
