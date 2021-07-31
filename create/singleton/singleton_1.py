@@ -1,6 +1,4 @@
 class AppSettings:
-    _instance = None
-
     def __new__(cls, *args, **kwargs):
         if not cls._instance:
             cls._instance = super().__new__(cls, *args, **kwargs)
@@ -10,6 +8,7 @@ class AppSettings:
     def __init__(self) -> None:
         """O Init será chamado todas as vezes"""
         self.tema = "Tema escuro"
+        _instance: AppSettings
 
 
 if __name__ == "__main__":

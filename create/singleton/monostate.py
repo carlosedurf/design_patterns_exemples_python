@@ -16,6 +16,7 @@ class A(StringReprMixin):
 
 class MonoState(StringReprMixin):
     _state: dict = {}
+    x: int = 0
 
     def __new__(cls, *args, **kwargs):
         obj = super().__new__(cls)

@@ -40,7 +40,7 @@ class NoDiscount(DiscountStrategy):
 
 class CustomDiscount(DiscountStrategy):
     def __init__(self, discount) -> None:
-        self.discount = discount / 100
+        self.discount: float = discount / 100
 
     def calculate(self, value: float) -> float:
         return value - (value * self.discount)

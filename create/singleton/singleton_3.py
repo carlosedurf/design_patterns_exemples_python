@@ -1,7 +1,10 @@
+from typing import Dict
+
+
 class Meta(type):
     def __call__(cls, *args, **kwargs) -> None:
         print("CALL é executado")
-        return super().__call__(*args, **kwargs)
+        super().__call__(*args, **kwargs)
 
 
 class Peaple(metaclass=Meta):
@@ -22,7 +25,6 @@ print(p1.name)
 
 
 ###########################################################################
-from typing import Dict
 
 
 class Singleton(type):
