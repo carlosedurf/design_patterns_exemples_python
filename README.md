@@ -31,3 +31,5 @@
 
 - Adapter
 - Facade
+- Proxy
+- Bridge
