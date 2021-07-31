@@ -33,3 +33,4 @@
 - Facade
 - Proxy
 - Bridge
+- Flyweight
