@@ -34,3 +34,5 @@
 - Proxy
 - Bridge
 - Flyweight
+- Composite
+- Decorator
